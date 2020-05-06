@@ -11,7 +11,7 @@ f = @(t,y) [a1*y(1)*(1 - (y(1)/K1)^v1);
 exact = @(t) [0;0;0];
 
 h=0.25; % Step size
-t0 = 1; tN = 35; % range of t
+t0 = 1; tN = 100; % range of t
 
 y0 = [Initial_Tumour_Size; Initial_Tumour_Size; Initial_Tumour_Size];
 
